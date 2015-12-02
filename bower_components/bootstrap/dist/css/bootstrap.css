@@ -18,6 +18,11 @@ input[type=text] {
   border-radius: 20px;
 }
 
+img {
+  width: 80px;
+  height: 80px;
+}
+
 body {
   margin: 0;
 }

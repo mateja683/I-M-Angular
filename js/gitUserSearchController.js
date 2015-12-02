@@ -5,6 +5,8 @@ githubUserSearch.controller('GitUserSearchController', ['$resource', 'Search', f
     Search.query(self.searchTerm)
       .then(function(response) {
         self.searchResult = response.data;
+        console.log(response.data);
+
       });
   };
 }]);
