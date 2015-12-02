@@ -9,6 +9,15 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
+input[type=text] {
+  width: 295px;
+  padding: 5px;
+  outline: black;
+  border: 2px solid #999999;
+  border-radius: 20px;
+}
+
 body {
   margin: 0;
 }
@@ -1095,6 +1104,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  input: focus::-webkit-input-placeholder { color:transparent; }
 }
 a {
   color: #337ab7;
@@ -3022,6 +3032,7 @@ select[multiple].input-lg {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
+  box-shadow: 5px 5px 5px #888888;
 }
 .btn:focus,
 .btn:active:focus,
